@@ -1,0 +1,24 @@
+:root{
+    --orange: #ff6600;
+    --blue: #1b7ced;
+    --green: #4caf50;
+}
+
+h1{
+    width: 300;
+    font-size: 30px;
+    color: var(--orange);
+    margin-left: 100px;
+}
+p{
+    width: 100;
+    font-size: 16px;
+    color: var(--blue);
+    max-width: 300px;
+    margin-left: 100px;
+}
+h2{
+    width: 600;
+    font-size: 25px;
+    color: var(--green);
+}
