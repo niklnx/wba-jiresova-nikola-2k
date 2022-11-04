@@ -3,15 +3,14 @@
     --blue: #1b7ced;
     --green: #4caf50;
 }
-
 h1{
-    width: 300;
+    width: bold;
     font-size: 30px;
     color: var(--orange);
     margin-left: 100px;
 }
 p{
-    width: 100;
+    width: normal;
     font-size: 16px;
     color: var(--blue);
     max-width: 300px;
