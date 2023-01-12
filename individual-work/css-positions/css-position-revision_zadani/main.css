@@ -1,0 +1,83 @@
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 50%;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    gap: 35%;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+.header-logo {
+    padding: 15px;
+    margin-left: 150px;
+}
+#img1 {
+    max-width: 70px;
+}
+.nav-item {
+    font-size: 25px;
+}
+root {
+    --backround: #f2b880;
+    --behindp: #e88121;
+    --text: #752400;
+    /* Barvy
+Světlá barva pozadí: #f2b880
+Tmavší barvy pozadí za obrázkem: #e88121
+Barva text v oranžovém pozadí: #752400
+*/
+}
+.headline-1 {
+    font-size: 3rem;
+    padding-left: 45%;
+    padding-top: 5%;
+}
+.backround {
+    background-color: #f2b880;
+    width: 1600px;
+    height: 700px;
+    padding: 20px;
+    margin-left: 150px;
+    margin-top: 5%;
+    border-radius: 2em;
+}
+.img-backround {
+    background-color: #e88121;
+    width: 720px;
+    height: 480px;
+    margin: 5%;  
+}
+.hero-img {
+    margin: 5%;
+}
+.hero-text {
+    font-size: 1.5rem;
+    margin-top: 18%;
+    color: #752400;
+    font-style: oblique;
+}
+.img-text-flex {
+    display: flex;
+}
+.text {
+    margin: 10% 30%;
+    font-size: 1.5rem;
+    font-style: inherit;
+}
+.top-link {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+#image {
+    height: 50px;
+    width: 50px;
+}

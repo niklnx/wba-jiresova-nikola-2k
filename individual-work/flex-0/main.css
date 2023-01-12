@@ -1,0 +1,11 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 600px;
+    justify-content: center;
+    gap: 100px;
+}
+.item {
+    background-color: pink;
+}
